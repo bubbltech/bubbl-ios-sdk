@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Bubbl"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Bubbl is an iOS SDK with a sophisticated, highly accurate, geofence activation cloud-based campaign and analytics platform."
   s.description  = <<-DESC
   						* Bubbl is an iOS and Android SDK with a sophisticated, highly accurate, geofence activation cloud-based campaign and analytics platform. 
@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://bubbl.tech"
-  s.license      = "Copyright 2017 Bubbl LTD"
+  s.license = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author             = { "Bubbl LTD" => "support@bubbl.tech" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://andyzaharia@bitbucket.org/andyzaharia/bubbl.git", :tag => "1.0.0" }
+  s.source       = { :http => "https://github.com/bubbltech/bubbl-ios-sdk/raw/master/Bubbl.zip" }
   s.ios.vendored_framework = 'Bubbl.framework'
   s.requires_arc = true
 end
