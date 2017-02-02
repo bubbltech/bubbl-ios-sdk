@@ -1,6 +1,0 @@
-framework module Bubbl {
-  umbrella header "Bubbl.h"
-
-  export *
-  module * { export * }
-}
